@@ -1,0 +1,152 @@
+body{margin:0 auto;padding:0 auto;}
+
+.header {
+	float: left;
+	text-align: center;
+	width: 100%;
+	color: white;
+}
+
+.menu li {
+	display: inline;
+	font-family: "Open Sans", sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	margin: 0em 1em 0em 1em;
+}
+
+.herosection {
+	float: left;
+	width: 100%;
+	padding: 1em 0em 1em 0em;
+	color: white;
+	text-align: center;
+}
+
+.herosection h2 {
+	text-transform: capitalize;
+	font-family: "Rochester", cursive;
+	font-size: 140px;
+	font-weight: 400;
+}
+
+.herosection p {
+	font-family: "Open Sans", sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.header_combined {
+	float: left;
+	width: 100%;
+	/** background-image:url('../images/intro-bg.jpg');**/
+	background:
+		linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%),
+		url('../images/intro-bg.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+
+}
+
+
+.specials_section {
+	float: left;
+	width: 100%;
+}
+
+.specials_section h3 {
+	font-family: "Raleway", sans-serif;
+	font-size: 38px;
+	font-weight: 400;
+	text-align: center;
+}
+
+.special1 {
+	float: left;
+	width: 33.3%;
+	text-align: center;
+}
+
+.special1 h4 {
+	font-family: "Raleway", sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+}
+
+.special1 img {
+	width: 75%;
+}
+
+.special1 p {
+	font-family: "Open Sans", sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.special2 {
+	float: left;
+	width: 33.3%;
+	text-align: center;
+}
+
+.special2 h4 {
+	font-family: "Raleway", sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+}
+
+.special2 img {
+	width: 75%;
+}
+
+.special2 p {
+	font-family: "Open Sans", sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+
+.special3 {
+	float: left;
+	width: 33.3%;
+	text-align: center;
+}
+
+.special3 h4 {
+	font-family: "Raleway", sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+}
+
+.special3 img {
+	width: 75%;
+}
+
+.special3 p {
+	font-family: "Open Sans", sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.story_session {float: left;width: 100%;}
+.story_session_part1 {float: left;width: 50%;}
+.story_session_part1 img {width: 80%;}
+.story_session_part2 {float: right;width: 50%;}
+.story_session_part2 h4 {
+	font-family: "Raleway", sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+}
+.story_session_part2 p {
+	font-family: "Open Sans", sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.address{float:left;width:100%;}
+.footer{float:left;width:100%;
+background-color:black;
+color:white;text-align:center;}
+
+
+.socialmedia li{display:inline;}
